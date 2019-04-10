@@ -1,0 +1,3 @@
+#! /bin/bash
+g++ Individual.cpp Source.cpp -lncurses -o parent.out
+g++ PayPhone.cpp sleep.cpp -lncurses -o child.out
